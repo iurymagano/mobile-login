@@ -20,7 +20,6 @@ body {
     margin-left: 40%;
     width: 344px;
     height: 744px;
-    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,13 +108,10 @@ button:hover {
 
 @media (max-width: 576px) {
         .app {
-            width: 100vw;
-            height: 100vh;
+            width: 100%;
             margin-left: auto;
             margin-right: auto;
-        }
-
-        
+        }  
     }
 
 
